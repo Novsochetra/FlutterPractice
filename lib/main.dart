@@ -4,6 +4,7 @@ import 'package:FirstFlutter/horizontal_list_view.dart';
 import 'package:FirstFlutter/page_transition.dart';
 import 'package:FirstFlutter/ripple_button.dart';
 import 'package:FirstFlutter/seciton_list.dart';
+import 'package:FirstFlutter/silver_appbar.dart';
 import 'package:FirstFlutter/snackbar.dart';
 import 'package:FirstFlutter/swip_dismiss.dart';
 import 'package:FirstFlutter/tab.dart';
@@ -18,7 +19,8 @@ void main() {
   // runApp(MyAppSwipeDismiss());
   // runApp(MyAppGridView());
   // runApp(MyAppHorizontalListView());
-  runApp(MyAppSecitonList());
+  // runApp(MyAppSecitonList());
+  runApp(MyAppSilverAppbar());
 }
 
 class MyApp extends StatelessWidget {
