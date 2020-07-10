@@ -36,9 +36,16 @@ class SilverAppbarState extends State<_SilverAppbarBuilder> {
         ),
         SliverList(
             delegate: SliverChildBuilderDelegate(
-          (context, index) => ListTile(title: Text("Item $index")),
-          childCount: 20,
-        ))
+                (context, index) => InkWell(
+                      onTap: () {
+                        print("Tab on item $index");
+                      },
+                      child: Container(
+                        padding: EdgeInsets.all(15.0),
+                        child: Text("Item $index"),
+                      ),
+                    ),
+                childCount: 100)),
       ],
     );
   }
