@@ -3,6 +3,7 @@ import 'package:FirstFlutter/grid_view.dart';
 import 'package:FirstFlutter/horizontal_list_view.dart';
 import 'package:FirstFlutter/page_transition.dart';
 import 'package:FirstFlutter/ripple_button.dart';
+import 'package:FirstFlutter/seciton_list.dart';
 import 'package:FirstFlutter/snackbar.dart';
 import 'package:FirstFlutter/swip_dismiss.dart';
 import 'package:FirstFlutter/tab.dart';
@@ -16,7 +17,8 @@ void main() {
   // runApp(MyAppRipple());
   // runApp(MyAppSwipeDismiss());
   // runApp(MyAppGridView());
-  runApp(MyAppHorizontalListView());
+  // runApp(MyAppHorizontalListView());
+  runApp(MyAppSecitonList());
 }
 
 class MyApp extends StatelessWidget {
