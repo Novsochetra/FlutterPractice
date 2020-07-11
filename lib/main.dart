@@ -2,6 +2,7 @@ import 'package:FirstFlutter/drawer.dart';
 import 'package:FirstFlutter/grid_view.dart';
 import 'package:FirstFlutter/horizontal_list_view.dart';
 import 'package:FirstFlutter/navigation.dart';
+import 'package:FirstFlutter/navigation_with_name_routes.dart';
 import 'package:FirstFlutter/page_transition.dart';
 import 'package:FirstFlutter/ripple_button.dart';
 import 'package:FirstFlutter/seciton_list.dart';
@@ -22,7 +23,8 @@ void main() {
   // runApp(MyAppHorizontalListView());
   // runApp(MyAppSecitonList());
   // runApp(MyAppSilverAppbar());
-  runApp(MyAppNavigation());
+  // runApp(MyAppNavigation());
+  runApp(MyAppNavigationWithNameRoutes());
 }
 
 class MyApp extends StatelessWidget {
