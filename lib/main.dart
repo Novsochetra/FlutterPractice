@@ -10,6 +10,7 @@ import 'package:FirstFlutter/silver_appbar.dart';
 import 'package:FirstFlutter/snackbar.dart';
 import 'package:FirstFlutter/swip_dismiss.dart';
 import 'package:FirstFlutter/tab.dart';
+import 'package:FirstFlutter/passing_argument_navigation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,7 +25,8 @@ void main() {
   // runApp(MyAppSecitonList());
   // runApp(MyAppSilverAppbar());
   // runApp(MyAppNavigation());
-  runApp(MyAppNavigationWithNameRoutes());
+  // runApp(MyAppNavigationWithNameRoutes());
+  runApp(MyAppNavigationWithArgument());
 }
 
 class MyApp extends StatelessWidget {
