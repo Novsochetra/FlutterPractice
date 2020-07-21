@@ -1,4 +1,5 @@
 import 'package:FirstFlutter/drawer.dart';
+import 'package:FirstFlutter/fetching_data_from_server.dart';
 import 'package:FirstFlutter/grid_view.dart';
 import 'package:FirstFlutter/horizontal_list_view.dart';
 import 'package:FirstFlutter/navigation.dart';
@@ -28,7 +29,8 @@ void main() {
   // runApp(MyAppNavigation());
   // runApp(MyAppNavigationWithNameRoutes());
   // runApp(MyAppNavigationWithArgument());
-  runApp(MyAppPassingDataBack());
+  //runApp(MyAppPassingDataBack());
+  runApp(MyAppFetchData());
 }
 
 class MyApp extends StatelessWidget {
