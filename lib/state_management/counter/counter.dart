@@ -7,8 +7,10 @@ void main() {
 
 // MODEL
 class Counter with ChangeNotifier {
+  // State
   int value = 0;
 
+  // Event
   void increment() {
     value += 1;
     notifyListeners();
